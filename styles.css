@@ -1,0 +1,55 @@
+/* images */
+.img-100px{
+ min-width: 100px;
+ min-height: 100px;
+}
+
+.img-mh-150px{
+  max-height: 150px;
+}
+/* transitions */
+
+/* backgrounds */
+
+.bg-green-gradient{
+  background: rgb(2,17,12);
+  background: linear-gradient(40deg, rgba(2,17,12,1) 0%, rgba(0,255,167,1) 100%);
+}
+
+.bg-green-gradient-alt{
+  background: rgb(2,17,12);
+  background: linear-gradient(320deg, rgba(2,17,12,1) 0%, rgba(0,255,167,1) 100%);
+}
+
+.bg-grey-gradient-alt{
+  background: rgb(0,0,0);
+background: linear-gradient(320deg, rgba(0,0,0,1) 0%, rgba(208,208,208,1) 100%);
+}
+
+.bg-grey-gradient{
+  background: rgb(0,0,0);
+  background: linear-gradient(40deg, rgba(0,0,0,1) 0%, rgba(208,208,208,1) 100%);
+}
+
+/* animations */
+
+
+/* scroll fade classes */
+.scrollFade {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.scrollFade--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.scrollFade--visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.scrollFade--animate {
+  transition: opacity 0.4s ease-in-out;
+}
